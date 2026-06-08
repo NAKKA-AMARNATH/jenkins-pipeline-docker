@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                url: 'https://github.com/yourusername/myapp.git'
+                url: 'https://github.com/NAKKA-AMARNATH/jenkins-pipeline-docker'
             }
         }
 
